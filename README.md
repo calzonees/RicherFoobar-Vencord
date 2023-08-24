@@ -1,5 +1,5 @@
 # richerFoobar Plugin for Vencord
-A plugin that provides a simple header rewrite to allow Cider to show as the listening activity type.
+A plugin that provides a simple header rewrite to allow Foobar2000 to show as the listening activity type.
 
 Created by cryptofyre 
 
