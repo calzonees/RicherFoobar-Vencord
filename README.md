@@ -25,5 +25,6 @@ git clone https://github.com/Vendicated/Vencord; curl https://raw.githubusercont
 - I am in no way, shape, or form a Discord modder. I simply swapped the app ids from the original plugin.
 - Therefore, unmodified, this plugin is intended to only work with s0hv's component.
 - If you are using a custom fb2k rich presence solution or otherwise, you will need to add its id to "appIds".
+- Using this plugin will cause the rich presence's elapsed/remaining time to stop functioning.
 
 #### Do not use public forks including this file as we cannot assure the legitmacy of the repo and its contents.
