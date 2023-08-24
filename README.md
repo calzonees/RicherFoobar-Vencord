@@ -19,7 +19,7 @@ git clone https://github.com/Vendicated/Vencord; curl https://raw.githubusercont
 - Docs from component author s0hv available ([HERE](https://s0hv.github.io/foo_discord_rich/))
 - Download and install ([the component](https://github.com/s0hv/foo_discord_rich/releases/latest)) to foobar
 - Download an upload script, detailed in the component docs (Album Artwork > Upload scripts)
-- Depending on which script you selected (refer to docs), change the Preferences > Tools > Discord Rich Presence Integration > Advanced > Artwork Upload Command setting accordingly and check "Upload artwork"
+- Depending on which script you selected (refer to docs), change the Preferences > Tools > Discord Rich Presence Integration > Advanced > Artwork Upload Command setting in foobar accordingly and check "Upload artwork"
 
 ### Disclaimers
 - I am in no way, shape, or form a Discord modder. I simply swapped the app ids from the original plugin.
