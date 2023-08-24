@@ -20,17 +20,14 @@ import { Link } from "@components/Link";
 import definePlugin from "@utils/types";
 import { Forms } from "@webpack/common";
 const appIds = [
-    "911790844204437504",
-    "886578863147192350",
-    "1020414178047041627",
-    "1032800329332445255"
+    "507982587416018945", /* intended for use with https://github.com/s0hv/foo_discord_rich */
 ];
 export default definePlugin({
-    name: "richerCider",
-    description: "Enhances Cider (More details in info button) by adding the \"Listening to\" type prefix to the user's rich presence when an applicable ID is found.",
+    name: "richerFoobar",
+    description: "Enhances Foobar (More details in info button) by adding the \"Listening to\" type prefix to the user's rich presence when an applicable ID is found.",
     authors: [{
-        id: 191621342473224192n,
-        name: "cryptofyre",
+        id: 440508237628833794n,
+        name: "cal",
     }],
     patches: [
         {
@@ -50,15 +47,7 @@ export default definePlugin({
     ],
     settingsAboutComponent: () => (
         <>
-            <Forms.FormTitle tag="h3">Install Cider to use this Plugin</Forms.FormTitle>
-            <Forms.FormText>
-                <Link href="https://cider.sh">Follow the link to our website</Link> to get Cider up and running, and then enable the plugin.
-            </Forms.FormText>
-            <br></br>
-            <Forms.FormTitle tag="h3">What is Cider?</Forms.FormTitle>
-            <Forms.FormText>
-                Cider is an open-source and community oriented Apple Music client for Windows, macOS, and Linux.
-            </Forms.FormText>
+            <Forms.FormTitle tag="h3">Install Foobar2000 to use this Plugin</Forms.FormTitle>
             <br></br>
             <Forms.FormTitle tag="h3">Recommended Optional Plugins</Forms.FormTitle>
             <Forms.FormText>
