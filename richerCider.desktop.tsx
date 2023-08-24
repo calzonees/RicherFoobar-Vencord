@@ -20,15 +20,21 @@ import { Link } from "@components/Link";
 import definePlugin from "@utils/types";
 import { Forms } from "@webpack/common";
 const appIds = [
-    "507982587416018945", /* intended for use with https://github.com/s0hv/foo_discord_rich */
+    "507982587416018945",
 ];
 export default definePlugin({
     name: "richerFoobar",
     description: "Enhances Foobar (More details in info button) by adding the \"Listening to\" type prefix to the user's rich presence when an applicable ID is found.",
-    authors: [{
-        id: 440508237628833794n,
-        name: "cal",
-    }],
+    authors: [
+		{
+			id: 440508237628833794n,
+			name: "cal",
+		},
+		{
+			id: 191621342473224192n,
+			name: "cryptofire",
+		}
+	],
     patches: [
         {
             find: '.displayName="LocalActivityStore"',
@@ -48,11 +54,6 @@ export default definePlugin({
     settingsAboutComponent: () => (
         <>
             <Forms.FormTitle tag="h3">Install Foobar2000 to use this Plugin</Forms.FormTitle>
-            <br></br>
-            <Forms.FormTitle tag="h3">Recommended Optional Plugins</Forms.FormTitle>
-            <Forms.FormText>
-                I'd recommend using TimeBarAllActivities alongside this plugin to give off a much better visual to the eye (Keep in mind this only affects your client and will not show for other users)
-            </Forms.FormText>
         </>
     ),
     patchActivity(activity: any) {
